@@ -1,0 +1,1 @@
+sum by (le) (query_blocks_behind_bucket{deployment="[[deployment]]"})
