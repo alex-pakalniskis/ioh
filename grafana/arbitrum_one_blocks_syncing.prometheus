@@ -1,0 +1,1 @@
+increase(ethereum_chain_head_number{network="arbitrum-one",pod="index-node-block-ingestor-0"}[5m])
