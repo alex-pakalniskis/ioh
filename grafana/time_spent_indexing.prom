@@ -1,0 +1,5 @@
+sum(increase(deployment_sync_secs{deployment="[[deployment]]"}[$horizon]))
+
+sum by (stage) (increase(deployment_sync_secs{deployment="[[deployment]]"}[$horizon]))
+
+sum by (section, stage) (increase(deployment_sync_secs{deployment="[[deployment]]"}[$horizon]))
