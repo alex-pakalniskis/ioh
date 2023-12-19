@@ -1,0 +1,3 @@
+max by (network) (ethereum_chain_head_number) 
+network:subgraphs_behind_5blocks
+sum by (network) (deployment_failed)
