@@ -1,0 +1,1 @@
+sort((topk(100, (max by (network) (ethereum_chain_head_number) - ignoring(deployment) group_right() max by(deployment,network) (deployment_head)))))
